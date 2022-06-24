@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Travel Masti</title>
+    <title>Travel Mania</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/enquiry.css">
+    <link rel="stylesheet" type="text/css" href="enquiry.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -13,36 +13,37 @@
 </head>
 
 <body>
-    <marquee bgcolor="lighblue">Note: All your tour enquiry and bookings will be checked by our experts and all
+    <marquee bgcolor="Goldenyellow">Note: All your tour enquiry and bookings will be checked by our experts and all
         information
         will be given at your
         given email and mobile number.Thank You for choosing Travel Masti! </marquee>
     <section class="my-5">
         <div id="Package Enquiry" class="py-5">
-            <h2 class="text-center">Tour Enquiry</h2>
+            <h2 class="text-center" style="color: Red;">Tour Enquiry</h2>
         </div>
 
         <div class="w-50 m-auto">
             <form action="enquirydb.php" method="post">
                 <div class="form-group">
-                    <label>Username</label>
+                    <label style="color: Red;">Username</label>
                     <input type="text" name="user" autocomplete="off" class="form-control"
                         placeholder="Enter your username">
                 </div>
                 <div class="form-group">
-                    <label>Email Id</label>
+                    <label style="color: Red;">Email Id</label>
                     <input type="text" name="email" autocomplete="off" class="form-control"
                         placeholder="Enter your Email-id">
                 </div>
                 <div class="form-group">
-                    <label>Mobile No</label>
+                    <label style="color: Red;">Mobile No</label>
                     <input type="text" name="mobile" autocomplete="off" class="form-control"
                         placeholder="Enter your Mobile-No">
                 </div>
 
                 <div class="form-group">
-                    <label for="sel1">No of persons:</label>
+                    <label for="sel1" style="color: Red;">No of persons:</label>
                     <select class="form-control" id="sel1" name="persons">
+                        <option></option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -50,8 +51,9 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="sel2">Package:</label>
+                    <label for="sel2" style="color: Red;">Package:</label>
                     <select class="form-control" id="sel2" name="package">
+                        <option></option>
                         <option>London</option>
                         <option>India</option>
                         <option>Austrailia</option>
@@ -62,12 +64,13 @@
 
 
                 <div class="form-group">
-                    <label>Address</label>
+                    <label style="color: Red;">Address</label>
                     <textarea class="form-control" name="address">
                       </textarea>
                 </div>
+                
                 <button type="submit" id="submit" class="btn btn-success"
-                    onclick="alert('Thank You! We will soon get in touch with you')">Submit</button>
+                    onclick="alert('Thank You! We will soon get in touch with you')">Submit</button></a>
 
             </form>
         </div>

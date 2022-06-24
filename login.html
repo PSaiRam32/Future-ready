@@ -3,17 +3,15 @@
 <html>
 <head>
 	<title>LOGIN</title>
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
 <body>
-
-	<div class="header">
+	<div class="header1">
 		<h2>Login</h2>
 	</div>
 	
-	<form method="post" action="index.php">
+	<form method="post" action="index.html">
 
 		<?php include('errors.php'); ?>
 
@@ -26,16 +24,15 @@
 			<input type="password" name="password">
 		</div>
 
-		<div class="g-recaptcha" data-sitekey="6LfcxtEfAAAAAOjxle-us3jGpoxdjfojEFjITst2"></div>
+		
 
 		<div class="input-group">
-			<button type="submit" class="btn" name="login_user">Login</button>
+			<a href="index.html"><button type="submit" class="btn" name="login_user">Login</button></a>
 		</div>
 		<p>
-			Not yet a member? <a href="register.php">Sign up</a>
+			Not yet a member? <a href="register.html">Sign up</a>
 		</p>
 	</form>
-
 
 </body>
 </html>

@@ -5,13 +5,27 @@
   body {
     font-size: 120%;
     background: #F8F8FF;
+    background-image: url(SYN.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   .header {
     width: 30%;
     margin: 50px auto 0px;
     color: white;
-    background: #5F9EA0;
+    background: blueviolet;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  .header1 {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: cyan;
     text-align: center;
     border: 1px solid #B0C4DE;
     border-bottom: none;
@@ -28,6 +42,7 @@
   }
   .input-group {
     margin: 10px 0px 10px 0px;
+     
   }
   .input-group label {
     display: block;
@@ -46,10 +61,11 @@
     padding: 10px;
     font-size: 15px;
     color: white;
-    background: #5F9EA0;
+    background: gold;
     border: none;
     border-radius: 5px;
   }
+ 
   .error {
     width: 92%; 
     margin: 0px auto; 
