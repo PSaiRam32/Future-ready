@@ -34,3 +34,5 @@ Some Images of Website:![1 (2)](https://user-images.githubusercontent.com/874353
 Primary Azure Technology : Web, Static Web Apps.
 
 Other Azure Technologies : App Service
+
+#Azure link:https://orange-bush-0422fa310.1.azurestaticapps.net
