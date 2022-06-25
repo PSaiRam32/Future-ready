@@ -19,9 +19,7 @@ get instant reply by asking their enquiry they will be contacted immediately thr
 availble to the touristers.
 
 Some Images of Website:![1 (2)](https://user-images.githubusercontent.com/87435344/175761023-56a25e02-644a-4943-81ad-6b4c3b9bf748.png)
-![1](https://user-images.githubusercontent.com/87435344/175761029-dcbb8f77-5fa3-42f0-9b8a-3e4857b4125b.png)
 ![2 (2)](https://user-images.githubusercontent.com/87435344/175761032-4947916e-ca76-4a22-82ff-6f9d042f0347.png)
-![2](https://user-images.githubusercontent.com/87435344/175761037-c1e6686e-0c8e-47ae-abff-68ad8cc96e0d.png)
 ![3](https://user-images.githubusercontent.com/87435344/175761039-a56ba735-c776-4406-bfbe-bb5e1c7106b9.png)
 ![About](https://user-images.githubusercontent.com/87435344/175761045-7d410db8-e00e-472a-abb7-fe174f0c8c61.png)
 ![Contact](https://user-images.githubusercontent.com/87435344/175761048-403709bc-81c1-4f45-bd98-3e01e0698439.png)
