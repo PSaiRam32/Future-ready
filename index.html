@@ -36,21 +36,17 @@
                     <a class="nav-link text-warning " href="#Services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning " href="register.html">Register</a>
-                </li>
-
-                <li class="nav-item">
                     <a class="nav-link text-warning" href="#ContactUs">Contact Us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning " href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning " href="login.html">Login</a>
+                </li>
 
-                <?php if(isset($_SESSION['username'])){?>
-                <li><a class="nav-link text-warning" href="index.php"><?php echo $_SESSION['username'];?></a></li>
+                
                
-                <?php }else {?>
-                    <li><a href="login.html">Login</a></li>
-
-
-               <?php }?>
                 
             </ul>
 
@@ -79,7 +75,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="Europe-2.jpg" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Europe(London)</h2>
                     <p>London is one of the best cities for tourism and the most attractive spot in UK
@@ -87,7 +83,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="1.jpg" alt="Third slide">
+                <img class="d-block w-100" src="Australia-2.jpg" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Sydney(Austrailia)</h2>
                     <p> Austrailia is famous for its kangaroos and it is one of the most tourist visit
@@ -114,7 +110,7 @@
 
     <section class="my-5">
         <div id="AboutUs" class="py-5">
-            <h2 class="text-center">About Us</h2>
+            <h2 class="text-center" style="background-color: Grey; color:red">About Us</h2>
         </div>
 
         <div class="container-fluid">
@@ -137,7 +133,7 @@
                         "traveling to and staying in places outside their usual environment for not more than one
                         consecutive year for leisure and not less than 24 hours, business and other purposes".</br></br>
                     </p>
-                    <a href="https://agra.nic.in/tourist-places/" class="btn btn-success"> Read More</a>
+                    <a href="https://en.wikipedia.org/wiki/Agra" class="btn btn-success"> Read More</a>
                 </div>
             </div>
         </div>
@@ -153,7 +149,7 @@
 
     <section class="my-5">
         <div id="Services" class="py-5">
-            <h2 class="text-center">Our Services</h2>
+            <h2 class="text-center" style="color: Blue; background-color:Grey">Our Services</h2>
         </div>
 
         <div class="container-fluid">
@@ -227,7 +223,7 @@
 
     <section class="my-5">
         <div id="Gallery" class="py-5">
-            <h2 class="text-center"> Our Gallery</h2>
+            <h2 class="text-center" style="background-color: Grey;"> Our Gallery</h2>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -246,18 +242,26 @@
                 <div class="col-lg-4 col-md-4 col-12">
                     <img src="london.jpg" class="img-fluid pb-3">
                 </div>
-                <div class="col-lg-4 col-md-4 col-12" style="height:50px;">
-                    <img src="Even Tag.jpg" class="img-fluid pb-3">
-                </div>
-                
                 <div class="col-lg-4 col-md-4 col-12" style="height:120px;">
-                    <img src="efT.jpg" class="img-fluid pb-3">
+                    <img src="1.jpg" class="img-fluid pb-3">
                 </div>
-               
+                <div class="col-lg-4 col-md-4 col-12" style="height:120px;">
+                    <img src="2.jpg" class="img-fluid pb-3">
+                </div>
                 
                 <div class="col-lg-4 col-md-4 col-12">
                     <img src="56.jpg" class="img-fluid pb-3">
                 </div>
+                <div class="col-lg-4 col-md-4 col-12" >
+                    <img src="efT.jpg" class="img-fluid pb-3">
+                </div>
+                
+                
+                
+              
+               
+                
+                
             </div>
         </div>
     </section>
