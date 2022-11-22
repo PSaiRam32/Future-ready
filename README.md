@@ -35,4 +35,4 @@ Primary Azure Technology : Web, Static Web Apps.
 
 Other Azure Technologies : App Service
 
-#Azure link:https://orange-bush-0422fa310.1.azurestaticapps.net
+#Azure link:https://brave-mushroom-0f3421110.2.azurestaticapps.net/
