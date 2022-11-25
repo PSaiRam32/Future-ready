@@ -36,3 +36,6 @@ Primary Azure Technology : Web, Static Web Apps.
 Other Azure Technologies : App Service
 
 #Azure link:https://brave-mushroom-0f3421110.2.azurestaticapps.net/
+
+#Amazon Hosted Domain name:sairam123.ml
+This project can also be accessible by entering the domain name sairam123.ml in the browser.
